@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulaire page</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header><h1 align="center">Remplir le champs et visualiser vos informations</h1></header>
+<section>
+<form method="post" action="response.php">
+
+	<table align="center">
+	<tr>
+	<td width="33%"><label for="name">votre nom :</label></td>
+	<td width="33%"><input type="text" name="lastname" placeholder="Ex:lebron"></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+	<td width="33%" height="33%"><label for="name">votre prénom :</label></td>
+	<td width="33%" height="33%"><input type="text" name="firstname" placeholder="Ex:james"></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+	<td width="33%" height="33%"><label for="age">votre age :</label></td>
+	<td width="33%" height="33%"><input type="text" name="age"></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+	<td width="33%" height="33%"><label for="sexe">votre sexe :</label></td>
+	<td height="33%">
+	<label  class="container">male
+	<input type="radio" name="sexe" value="male">
+	<span class="checkmark"></span>
+	</label></td>
+
+	<td height="33%"><label  class="container">female
+	<input type="radio" name="sexe" value="female">
+	<span class="checkmark"></span>
+	</label></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+	<td width="33%" height="33%"><input type="submit" name="envoyer"></td>
+	<td width="33%" height="33%"><input type="reset" name="annuler"></td>
+	</tr>
+	</table>
+
+</form>
+</section>
+<footer> <h1 align="center">Merci de remplir tous les champs !</h1></footer>
+</body>
+</html>
